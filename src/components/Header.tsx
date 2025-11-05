@@ -24,12 +24,12 @@ const Header: React.FC = () => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-white/90 backdrop-blur-lg border-b border-gray-200' : 'bg-transparent'
-    } px-4 sm:px-6 lg:px-8`} style={{ paddingTop: 'env(safe-area-inset-top)' }}>
+    } px-2 sm:px-6 lg:px-8`} style={{ paddingTop: 'env(safe-area-inset-top)' }}>
       <div className="max-w-7xl mx-auto">
-        <div className="flex items-center justify-between h-12 sm:h-14 lg:h-16">
+        <div className="flex items-center justify-between h-11 sm:h-14 lg:h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-base sm:text-lg lg:text-xl font-bold font-serif bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">
+            <h1 className="text-sm sm:text-lg lg:text-xl font-bold font-serif bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">
               Modellaire MGMT
             </h1>
           </div>
@@ -70,20 +70,20 @@ const Header: React.FC = () => {
 
       {/* Mobile Navigation */}
       <div className={`lg:hidden transition-all duration-300 ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
-        <div className="bg-white/95 backdrop-blur-lg border-b border-gray-200 px-4">
-          <div className="pt-2 pb-4 space-y-2">
+        <div className="bg-white/95 backdrop-blur-lg border-b border-gray-200 px-2">
+          <div className="pt-1 pb-2 space-y-1">
             {navItems.map((item) => (
               <a
                 key={item.label}
                 href={item.href}
-                className="text-gray-700 hover:text-gray-900 block px-4 py-3 text-base font-medium transition-colors duration-200 min-h-[44px] flex items-center"
+                className="text-gray-700 hover:text-gray-900 block px-2 py-2 text-sm font-medium transition-colors duration-200 min-h-[44px] flex items-center"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}
               </a>
             ))}
-            <button className="w-full mt-4 flex items-center justify-center px-4 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-base rounded-full hover:from-blue-700 hover:to-purple-700 transition-all duration-300 min-h-[48px]">
-              <Phone className="w-4 h-4 mr-2" />
+            <button className="w-full mt-2 flex items-center justify-center px-3 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-sm rounded-full hover:from-blue-700 hover:to-purple-700 transition-all duration-300 min-h-[44px]">
+              <Phone className="w-3 h-3 mr-1.5" />
               Get in Touch
             </button>
           </div>

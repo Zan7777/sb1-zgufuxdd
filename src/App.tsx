@@ -109,30 +109,30 @@ function App() {
         <TrustStrip />
         
         {/* Why Choose NVSN - Standalone Section */}
-        <section className="py-4 sm:py-6 lg:py-16 relative">
-          <div className="max-w-4xl mx-auto px-3 sm:px-6 lg:px-8">
+        <section className="py-2 sm:py-6 lg:py-16 relative">
+          <div className="max-w-4xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative">
-              <div className="bg-gradient-to-br from-gray-50 to-white backdrop-blur-lg rounded-lg sm:rounded-xl lg:rounded-2xl p-3 sm:p-6 lg:p-8 border border-gray-200 shadow-2xl">
-                <h3 className="text-base sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 lg:mb-6">Why Choose Modellaire MGMT</h3>
+              <div className="bg-gradient-to-br from-gray-50 to-white backdrop-blur-lg rounded-md sm:rounded-xl lg:rounded-2xl p-2 sm:p-6 lg:p-8 border border-gray-200 shadow-2xl">
+                <h3 className="text-sm sm:text-xl lg:text-2xl font-bold text-gray-900 mb-2 sm:mb-4 lg:mb-6">Why Choose Modellaire MGMT</h3>
                 
-                <div className="space-y-2 sm:space-y-3 lg:space-y-4">
-                  <div className="flex items-start space-x-2 sm:space-x-3 lg:space-x-4 group">
-                    <div className="flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mt-0.5">
-                      <svg className="w-2 h-2 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <div className="space-y-1 sm:space-y-3 lg:space-y-4">
+                  <div className="flex items-start space-x-1.5 sm:space-x-3 lg:space-x-4 group">
+                    <div className="flex-shrink-0 w-3 h-3 sm:w-5 sm:h-5 lg:w-6 lg:h-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mt-0.5">
+                      <svg className="w-1.5 h-1.5 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <p className="text-xs sm:text-sm lg:text-base text-gray-600 group-hover:text-gray-900 transition-colors duration-300">
+                    <p style={{ fontSize: 'clamp(9px, 2.5vw, 16px)' }} className="text-gray-600 group-hover:text-gray-900 transition-colors duration-300">
                       Aggressive promotion to push past $50k/month
                     </p>
                   </div>
-                  <div className="flex items-start space-x-4 group">
-                    <div className="flex-shrink-0 w-5 h-5 lg:w-6 lg:h-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mt-0.5">
-                      <svg className="w-3 h-3 lg:w-4 lg:h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <div className="flex items-start space-x-1.5 sm:space-x-3 lg:space-x-4 group">
+                    <div className="flex-shrink-0 w-3 h-3 sm:w-5 sm:h-5 lg:w-6 lg:h-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mt-0.5">
+                      <svg className="w-1.5 h-1.5 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <p className="text-sm lg:text-base text-gray-600 group-hover:text-gray-900 transition-colors duration-300">
+                    <p style={{ fontSize: 'clamp(9px, 2.5vw, 16px)' }} className="text-gray-600 group-hover:text-gray-900 transition-colors duration-300">
                       Tailored campaigns that put your brand in spotlight
                     </p>
                   </div>
@@ -142,7 +142,7 @@ function App() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <p className="text-sm lg:text-base text-gray-600 group-hover:text-gray-900 transition-colors duration-300">
+                    <p style={{ fontSize: 'clamp(9px, 2.5vw, 16px)' }} className="text-gray-600 group-hover:text-gray-900 transition-colors duration-300">
                       Full team managing promotion across all channels
                     </p>
                   </div>
@@ -152,7 +152,7 @@ function App() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <p className="text-sm lg:text-base text-gray-600 group-hover:text-gray-900 transition-colors duration-300">
+                    <p style={{ fontSize: 'clamp(9px, 2.5vw, 16px)' }} className="text-gray-600 group-hover:text-gray-900 transition-colors duration-300">
                       Optimized posts, ads, and campaigns for maximum reach
                     </p>
                   </div>
@@ -162,18 +162,18 @@ function App() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <p className="text-sm lg:text-base text-gray-600 group-hover:text-gray-900 transition-colors duration-300">
+                    <p style={{ fontSize: 'clamp(9px, 2.5vw, 16px)' }} className="text-gray-600 group-hover:text-gray-900 transition-colors duration-300">
                       Position you in front of the right audience at the right time
                     </p>
                   </div>
                 </div>
 
-                <div className="mt-3 sm:mt-4 lg:mt-8 pt-3 sm:pt-4 lg:pt-6 border-t border-gray-200">
+                <div className="mt-2 sm:mt-4 lg:mt-8 pt-2 sm:pt-4 lg:pt-6 border-t border-gray-200">
                   <div className="text-center">
-                    <div className="text-xl sm:text-2xl lg:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                    <div style={{ fontSize: 'clamp(16px, 5vw, 36px)' }} className="font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                       $70K+
                     </div>
-                    <div className="text-xs lg:text-sm text-gray-600 mt-1">
+                    <div style={{ fontSize: 'clamp(8px, 2.2vw, 14px)' }} className="text-gray-600 mt-1">
                       Average Revenue Increase
                     </div>
                   </div>
@@ -190,21 +190,21 @@ function App() {
         <TrustBar />
         <Services />
         {/* Client Transformation Results */}
-        <section className="py-4 sm:py-6 lg:py-12 relative">
-          <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+        <section className="py-2 sm:py-6 lg:py-12 relative">
+          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             {/* Header */}
-            <div className="text-center mb-4 sm:mb-6 lg:mb-16">
-              <h2 className="text-xs lg:text-sm font-semibold text-blue-600 uppercase tracking-wider mb-2 sm:mb-3 lg:mb-4">Revenue Transformation</h2>
-              <h3 className="text-lg sm:text-2xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-3 sm:mb-4 lg:mb-6">
+            <div className="text-center mb-2 sm:mb-6 lg:mb-16">
+              <h2 style={{ fontSize: 'clamp(8px, 2.2vw, 14px)' }} className="font-semibold text-blue-600 uppercase tracking-wider mb-1 sm:mb-3 lg:mb-4">Revenue Transformation</h2>
+              <h3 style={{ fontSize: 'clamp(14px, 4.5vw, 48px)' }} className="font-bold text-gray-900 mb-2 sm:mb-4 lg:mb-6">
                 From Zero to
                 <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                   Six-Figure Monthly
                 </span>
               </h3>
-              <div className="w-12 sm:w-16 lg:w-24 h-0.5 sm:h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
+              <div className="w-8 sm:w-16 lg:w-24 h-0.5 sm:h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-12 items-center">
+            <div className="grid lg:grid-cols-2 gap-2 sm:gap-6 lg:gap-12 items-center">
 
               {/* Left Column - Before/After Transformations */}
               <div className="space-y-3 sm:space-y-4 lg:space-y-8">
