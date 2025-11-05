@@ -109,20 +109,20 @@ function App() {
         <TrustStrip />
         
         {/* Why Choose NVSN - Standalone Section */}
-        <section className="py-10 lg:py-16 relative">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="py-4 sm:py-6 lg:py-16 relative">
+          <div className="max-w-4xl mx-auto px-3 sm:px-6 lg:px-8">
             <div className="relative">
-              <div className="bg-gradient-to-br from-gray-50 to-white backdrop-blur-lg rounded-xl lg:rounded-2xl p-6 lg:p-8 border border-gray-200 shadow-2xl">
-                <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-4 lg:mb-6">Why Choose Modellaire MGMT</h3>
+              <div className="bg-gradient-to-br from-gray-50 to-white backdrop-blur-lg rounded-lg sm:rounded-xl lg:rounded-2xl p-3 sm:p-6 lg:p-8 border border-gray-200 shadow-2xl">
+                <h3 className="text-base sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 lg:mb-6">Why Choose Modellaire MGMT</h3>
                 
-                <div className="space-y-3 lg:space-y-4">
-                  <div className="flex items-start space-x-4 group">
-                    <div className="flex-shrink-0 w-5 h-5 lg:w-6 lg:h-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mt-0.5">
-                      <svg className="w-3 h-3 lg:w-4 lg:h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <div className="space-y-2 sm:space-y-3 lg:space-y-4">
+                  <div className="flex items-start space-x-2 sm:space-x-3 lg:space-x-4 group">
+                    <div className="flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mt-0.5">
+                      <svg className="w-2 h-2 sm:w-3 sm:h-3 lg:w-4 lg:h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <p className="text-sm lg:text-base text-gray-600 group-hover:text-gray-900 transition-colors duration-300">
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-600 group-hover:text-gray-900 transition-colors duration-300">
                       Aggressive promotion to push past $50k/month
                     </p>
                   </div>
@@ -168,9 +168,9 @@ function App() {
                   </div>
                 </div>
 
-                <div className="mt-6 lg:mt-8 pt-4 lg:pt-6 border-t border-gray-200">
+                <div className="mt-3 sm:mt-4 lg:mt-8 pt-3 sm:pt-4 lg:pt-6 border-t border-gray-200">
                   <div className="text-center">
-                    <div className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                    <div className="text-xl sm:text-2xl lg:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                       $70K+
                     </div>
                     <div className="text-xs lg:text-sm text-gray-600 mt-1">
@@ -181,8 +181,8 @@ function App() {
               </div>
 
               {/* Floating elements */}
-              <div className="absolute -top-2 -right-2 lg:-top-4 lg:-right-4 w-16 h-16 lg:w-24 lg:h-24 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-xl animate-pulse"></div>
-              <div className="absolute -bottom-2 -left-2 lg:-bottom-4 lg:-left-4 w-20 h-20 lg:w-32 lg:h-32 bg-gradient-to-r from-purple-500/15 to-blue-500/15 rounded-full blur-2xl animate-pulse delay-1000"></div>
+              <div className="absolute -top-1 -right-1 sm:-top-2 sm:-right-2 lg:-top-4 lg:-right-4 w-8 h-8 sm:w-12 sm:h-12 lg:w-24 lg:h-24 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-xl animate-pulse"></div>
+              <div className="absolute -bottom-1 -left-1 sm:-bottom-2 sm:-left-2 lg:-bottom-4 lg:-left-4 w-10 h-10 sm:w-16 sm:h-16 lg:w-32 lg:h-32 bg-gradient-to-r from-purple-500/15 to-blue-500/15 rounded-full blur-2xl animate-pulse delay-1000"></div>
             </div>
           </div>
         </section>
@@ -190,88 +190,88 @@ function App() {
         <TrustBar />
         <Services />
         {/* Client Transformation Results */}
-        <section className="py-8 lg:py-12 relative">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="py-4 sm:py-6 lg:py-12 relative">
+          <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
             {/* Header */}
-            <div className="text-center mb-10 lg:mb-16">
-              <h2 className="text-xs lg:text-sm font-semibold text-blue-600 uppercase tracking-wider mb-3 lg:mb-4">Revenue Transformation</h2>
-              <h3 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-4 lg:mb-6">
+            <div className="text-center mb-4 sm:mb-6 lg:mb-16">
+              <h2 className="text-xs lg:text-sm font-semibold text-blue-600 uppercase tracking-wider mb-2 sm:mb-3 lg:mb-4">Revenue Transformation</h2>
+              <h3 className="text-lg sm:text-2xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-3 sm:mb-4 lg:mb-6">
                 From Zero to
                 <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                   Six-Figure Monthly
                 </span>
               </h3>
-              <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
+              <div className="w-12 sm:w-16 lg:w-24 h-0.5 sm:h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div className="grid lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-12 items-center">
 
               {/* Left Column - Before/After Transformations */}
-              <div className="space-y-8">
+              <div className="space-y-3 sm:space-y-4 lg:space-y-8">
                 {/* Transformation 1 */}
-                <div className="bg-gradient-to-br from-gray-50 to-white backdrop-blur-lg rounded-2xl p-8 border border-gray-200 shadow-xl">
-                  <div className="text-center mb-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Revenue Potential Calculator</h4>
-                    <p className="text-gray-600">See your earning potential with different strategies</p>
+                <div className="bg-gradient-to-br from-gray-50 to-white backdrop-blur-lg rounded-lg sm:rounded-xl lg:rounded-2xl p-3 sm:p-4 lg:p-8 border border-gray-200 shadow-xl">
+                  <div className="text-center mb-3 sm:mb-4 lg:mb-6">
+                    <h4 className="text-sm sm:text-base lg:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Revenue Potential Calculator</h4>
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-600">See your earning potential with different strategies</p>
                   </div>
                   
-                  <div className="space-y-4">
+                  <div className="space-y-2 sm:space-y-3 lg:space-y-4">
                     {/* Strategy Comparison */}
-                    <div className="bg-gradient-to-r from-red-50 to-orange-50 rounded-lg p-4 border border-red-100">
-                      <div className="text-center mb-3">
-                        <span className="text-sm font-semibold text-gray-700">Without Professional Management</span>
-                       <div className="text-2xl font-bold text-red-600 mt-1">$1,500</div>
+                    <div className="bg-gradient-to-r from-red-50 to-orange-50 rounded-lg p-2 sm:p-3 lg:p-4 border border-red-100">
+                      <div className="text-center mb-2 sm:mb-3">
+                        <span className="text-xs sm:text-sm font-semibold text-gray-700">Without Professional Management</span>
+                       <div className="text-lg sm:text-xl lg:text-2xl font-bold text-red-600 mt-1">$1,500</div>
                         <div className="text-xs text-red-600">Average monthly earnings</div>
                       </div>
                     </div>
                     
                     {/* VS Divider */}
-                    <div className="flex items-center justify-center py-2">
+                    <div className="flex items-center justify-center py-1 sm:py-2">
                       <div className="flex-1 h-px bg-gray-300"></div>
-                      <span className="px-4 text-sm font-bold text-gray-500 bg-white">VS</span>
+                      <span className="px-2 sm:px-3 lg:px-4 text-xs sm:text-sm font-bold text-gray-500 bg-white">VS</span>
                       <div className="flex-1 h-px bg-gray-300"></div>
                     </div>
-                    
-                    <div className="bg-gradient-to-r from-emerald-50 to-green-50 rounded-lg p-4 border border-emerald-100">
-                      <div className="text-center mb-3">
-                        <span className="text-sm font-semibold text-gray-700">With Modellaire MGMT</span>
-                        <div className="text-2xl font-bold text-emerald-600 mt-1">$18,500</div>
+
+                    <div className="bg-gradient-to-r from-emerald-50 to-green-50 rounded-lg p-2 sm:p-3 lg:p-4 border border-emerald-100">
+                      <div className="text-center mb-2 sm:mb-3">
+                        <span className="text-xs sm:text-sm font-semibold text-gray-700">With Modellaire MGMT</span>
+                        <div className="text-lg sm:text-xl lg:text-2xl font-bold text-emerald-600 mt-1">$18,500</div>
                         <div className="text-xs text-emerald-600">Projected monthly earnings</div>
                       </div>
                       <div className="w-full bg-emerald-200 rounded-full h-2 mt-2">
                         <div className="bg-gradient-to-r from-emerald-500 to-green-500 h-2 rounded-full" style={{width: '95%'}}></div>
                       </div>
-                      <div className="text-center mt-2">
-                       <span className="text-lg font-bold text-emerald-600">1,133% increase</span>
+                      <div className="text-center mt-1 sm:mt-2">
+                       <span className="text-sm sm:text-base lg:text-lg font-bold text-emerald-600">1,133% increase</span>
                       </div>
                     </div>
-                    
+
                     {/* Call to Action */}
-                    <div className="text-center pt-4 border-t border-gray-200">
-                      <p className="text-sm text-gray-600 mb-3">Ready to unlock your potential?</p>
+                    <div className="text-center pt-2 sm:pt-3 lg:pt-4 border-t border-gray-200">
+                      <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3">Ready to unlock your potential?</p>
                       <button 
                         onClick={() => setShowCalculator(!showCalculator)}
-                        className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-green-600 text-white text-sm rounded-full font-semibold hover:from-emerald-700 hover:to-green-700 transition-all duration-300 transform hover:scale-105"
+                        className="px-3 sm:px-4 lg:px-6 py-1.5 sm:py-2 bg-gradient-to-r from-emerald-600 to-green-600 text-white text-xs sm:text-sm rounded-full font-semibold hover:from-emerald-700 hover:to-green-700 transition-all duration-300 transform hover:scale-105 min-h-[44px]"
                       >
                         {showCalculator ? 'Hide Calculator' : 'Calculate My Potential'}
                       </button>
                       
                       {/* Advanced Calculator Dropdown */}
                       {showCalculator && (
-                        <div className="mt-6 bg-white rounded-2xl border-2 border-gray-200 shadow-2xl p-8 text-left animate-in slide-in-from-top duration-300">
-                          <div className="mb-6">
-                            <h4 className="text-2xl font-bold text-gray-900 mb-2">Revenue Loss Calculator</h4>
-                            <p className="text-gray-600">Answer these questions to see exactly how much you're potentially losing each month</p>
+                        <div className="mt-3 sm:mt-4 lg:mt-6 bg-white rounded-lg sm:rounded-xl lg:rounded-2xl border-2 border-gray-200 shadow-2xl p-3 sm:p-4 lg:p-8 text-left animate-in slide-in-from-top duration-300">
+                          <div className="mb-3 sm:mb-4 lg:mb-6">
+                            <h4 className="text-base sm:text-lg lg:text-2xl font-bold text-gray-900 mb-1 sm:mb-2">Revenue Loss Calculator</h4>
+                            <p className="text-xs sm:text-sm lg:text-base text-gray-600">Answer these questions to see exactly how much you're potentially losing each month</p>
                           </div>
                           
-                          <div className="space-y-6">
+                          <div className="space-y-3 sm:space-y-4 lg:space-y-6">
                             {/* Current Followers */}
                             <div>
-                              <label className="block text-sm font-semibold text-gray-900 mb-2">Current Follower Count</label>
-                              <select 
+                              <label className="block text-xs sm:text-sm font-semibold text-gray-900 mb-1 sm:mb-2">Current Follower Count</label>
+                              <select
                                 value={calculatorData.currentFollowers}
                                 onChange={(e) => setCalculatorData({...calculatorData, currentFollowers: e.target.value})}
-                                className="w-full p-3 border border-gray-300 rounded-lg focus:border-emerald-500 focus:outline-none"
+                                className="w-full p-2 sm:p-3 border border-gray-300 rounded-lg focus:border-emerald-500 focus:outline-none text-xs sm:text-sm min-h-[44px]"
                               >
                                 <option value="0-1000">0 - 1,000 followers</option>
                                 <option value="1000-5000">1,000 - 5,000 followers</option>
@@ -282,10 +282,10 @@ function App() {
                                 <p className="text-red-600 text-xs mt-1">⚠️ Low follower count = missing 80% of earning potential</p>
                               )}
                             </div>
-                            
+
                             {/* Post Frequency */}
                             <div>
-                              <label className="block text-sm font-semibold text-gray-900 mb-2">How Often Do You Post?</label>
+                              <label className="block text-xs sm:text-sm font-semibold text-gray-900 mb-1 sm:mb-2">How Often Do You Post?</label>
                               <select 
                                 value={calculatorData.postFrequency}
                                 onChange={(e) => setCalculatorData({...calculatorData, postFrequency: e.target.value})}
@@ -482,55 +482,55 @@ function App() {
                           </div>
                           
                           {/* Results */}
-                          <div className="mt-8 p-6 bg-gradient-to-r from-red-50 to-orange-50 rounded-xl border border-red-200">
-                            <h5 className="text-lg font-bold text-gray-900 mb-4">💸 Your Current Revenue Loss Analysis</h5>
-                            
-                            <div className="grid grid-cols-2 gap-4 mb-4">
+                          <div className="mt-3 sm:mt-4 lg:mt-8 p-3 sm:p-4 lg:p-6 bg-gradient-to-r from-red-50 to-orange-50 rounded-lg sm:rounded-xl border border-red-200">
+                            <h5 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-2 sm:mb-3 lg:mb-4">💸 Your Current Revenue Loss Analysis</h5>
+
+                            <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:gap-4 mb-2 sm:mb-3 lg:mb-4">
                               <div className="text-center">
-                                <div className="text-sm text-gray-600">Current Estimate</div>
-                                <div className="text-xl font-bold text-red-600">${results.currentEstimate.toLocaleString()}/mo</div>
+                                <div className="text-xs sm:text-sm text-gray-600">Current Estimate</div>
+                                <div className="text-base sm:text-lg lg:text-xl font-bold text-red-600">${results.currentEstimate.toLocaleString()}/mo</div>
                               </div>
                               <div className="text-center">
-                                <div className="text-sm text-gray-600">With Professional Management</div>
-                                <div className="text-xl font-bold text-emerald-600">${results.withManagement.toLocaleString()}/mo</div>
+                                <div className="text-xs sm:text-sm text-gray-600">With Professional Management</div>
+                                <div className="text-base sm:text-lg lg:text-xl font-bold text-emerald-600">${results.withManagement.toLocaleString()}/mo</div>
                               </div>
                             </div>
                             
-                            <div className="bg-white rounded-lg p-4 border border-red-200">
-                              <div className="text-center mb-3">
-                                <div className="text-2xl font-bold text-red-600">-${results.monthlyLoss.toLocaleString()}</div>
-                                <div className="text-sm text-red-600">You're potentially losing per month</div>
+                            <div className="bg-white rounded-lg p-2 sm:p-3 lg:p-4 border border-red-200">
+                              <div className="text-center mb-2 sm:mb-3">
+                                <div className="text-lg sm:text-xl lg:text-2xl font-bold text-red-600">-${results.monthlyLoss.toLocaleString()}</div>
+                                <div className="text-xs sm:text-sm text-red-600">You're potentially losing per month</div>
                               </div>
                               <div className="text-center">
-                                <div className="text-lg font-bold text-red-700">${results.yearlyLoss.toLocaleString()}</div>
+                                <div className="text-sm sm:text-base lg:text-lg font-bold text-red-700">${results.yearlyLoss.toLocaleString()}</div>
                                 <div className="text-xs text-red-700">Potential yearly loss</div>
                               </div>
-                              <div className="mt-3 pt-3 border-t border-red-200 text-center">
-                                <div className="text-sm text-red-800 font-semibold">⏰ Time Cost: {Math.round(results.monthlyLoss / 50)} hours monthly</div>
+                              <div className="mt-2 sm:mt-3 pt-2 sm:pt-3 border-t border-red-200 text-center">
+                                <div className="text-xs sm:text-sm text-red-800 font-semibold">⏰ Time Cost: {Math.round(results.monthlyLoss / 50)} hours monthly</div>
                                 <div className="text-xs text-red-600">Time you spend on tasks we handle professionally</div>
                               </div>
                             </div>
                           </div>
                           
                           {/* What We Do */}
-                          <div className="mt-2 p-2 bg-gradient-to-r from-emerald-50 to-green-50 rounded-xl border border-emerald-200">
-                            <div className="text-center mb-4">
-                              <h5 className="text-lg font-bold text-gray-900 mb-2">🚀 How Modellaire MGMT Guarantees Your Success</h5>
-                              <div className="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-xs font-bold">
+                          <div className="mt-2 p-2 sm:p-3 lg:p-4 bg-gradient-to-r from-emerald-50 to-green-50 rounded-lg sm:rounded-xl border border-emerald-200">
+                            <div className="text-center mb-2 sm:mb-3 lg:mb-4">
+                              <h5 className="text-sm sm:text-base lg:text-lg font-bold text-gray-900 mb-1 sm:mb-2">🚀 How Modellaire MGMT Guarantees Your Success</h5>
+                              <div className="inline-block bg-yellow-100 text-yellow-800 px-2 sm:px-3 py-1 rounded-full text-xs font-bold">
                                 ✅ 90-DAY MONEY-BACK GUARANTEE
                               </div>
                             </div>
                             
-                            <div className="space-y-3">
-                              <div className="flex items-start space-x-3">
-                                <div className="w-5 h-5 bg-emerald-500 rounded-full flex items-center justify-center mt-0.5 flex-shrink-0">
-                                  <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <div className="space-y-2 sm:space-y-3">
+                              <div className="flex items-start space-x-2 sm:space-x-3">
+                                <div className="w-4 h-4 sm:w-5 sm:h-5 bg-emerald-500 rounded-full flex items-center justify-center mt-0.5 flex-shrink-0">
+                                  <svg className="w-2 h-2 sm:w-3 sm:h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                   </svg>
                                 </div>
                                 <div>
-                                  <div className="font-semibold text-gray-900">🎯 Complete Business Takeover</div>
-                                  <div className="text-sm text-gray-600">We handle 100% of promotion, chat management, strategy, analytics, and optimization while you focus purely on content creation</div>
+                                  <div className="text-xs sm:text-sm lg:text-base font-semibold text-gray-900">🎯 Complete Business Takeover</div>
+                                  <div className="text-xs sm:text-sm text-gray-600">We handle 100% of promotion, chat management, strategy, analytics, and optimization while you focus purely on content creation</div>
                                 </div>
                               </div>
                               
@@ -608,10 +608,10 @@ function App() {
                             </div>
                             
                             {/* Guarantee Box */}
-                            <div className="mt-6 p-4 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg border border-yellow-200">
+                            <div className="mt-3 sm:mt-4 lg:mt-6 p-2 sm:p-3 lg:p-4 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg border border-yellow-200">
                               <div className="text-center">
-                                <h6 className="font-bold text-yellow-800 mb-2">🏆 Our Ironclad Success Guarantee</h6>
-                                <div className="text-sm text-yellow-700 space-y-1">
+                                <h6 className="text-xs sm:text-sm lg:text-base font-bold text-yellow-800 mb-1 sm:mb-2">🏆 Our Ironclad Success Guarantee</h6>
+                                <div className="text-xs sm:text-sm text-yellow-700 space-y-1">
                                   <p>✅ 300% ROI within 90 days or full refund</p>
                                   <p>✅ Minimum $15K monthly revenue by month 3</p>
                                   <p>✅ 50+ hours time saved monthly guaranteed</p>
@@ -620,11 +620,11 @@ function App() {
                               </div>
                             </div>
                             
-                            <div className="mt-6 text-center">
-                              <button className="px-8 py-3 bg-gradient-to-r from-emerald-600 to-green-600 text-white rounded-full font-semibold hover:from-emerald-700 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                            <div className="mt-3 sm:mt-4 lg:mt-6 text-center">
+                              <button className="px-4 sm:px-6 lg:px-8 py-2 sm:py-2.5 lg:py-3 bg-gradient-to-r from-emerald-600 to-green-600 text-white text-xs sm:text-sm lg:text-base rounded-full font-semibold hover:from-emerald-700 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg min-h-[44px]">
                                 🚀 Stop Losing ${results.monthlyLoss.toLocaleString()}/Month - Start Now
                               </button>
-                              <div className="text-xs text-gray-600 mt-2">90-day money-back guarantee • No setup fees • Cancel anytime</div>
+                              <div className="text-xs text-gray-600 mt-1 sm:mt-2">90-day money-back guarantee • No setup fees • Cancel anytime</div>
                               <div className="text-xs text-emerald-600 mt-1 font-semibold">⚡ Limited: Only 5 new clients accepted monthly</div>
                             </div>
                           </div>
@@ -638,27 +638,27 @@ function App() {
               {/* Right Column - Success Tiers & Guarantee */}
               <div className="relative">
                 {/* Success Tiers */}
-                <div className="bg-gradient-to-br from-gray-50 to-white backdrop-blur-lg rounded-2xl lg:rounded-3xl p-8 border border-gray-200 shadow-2xl">
+                <div className="bg-gradient-to-br from-gray-50 to-white backdrop-blur-lg rounded-lg sm:rounded-xl lg:rounded-3xl p-3 sm:p-4 lg:p-8 border border-gray-200 shadow-2xl">
 
 
-                  <div className="text-center mb-8">
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Success Tiers</h4>
+                  <div className="text-center mb-3 sm:mb-4 lg:mb-8">
+                    <h4 className="text-base sm:text-lg lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 lg:mb-6">Success Tiers</h4>
                     
-                    <div className="space-y-4">
+                    <div className="space-y-2 sm:space-y-3 lg:space-y-4">
                       {/* Tier 1 */}
-                      <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-4 border border-green-200 text-left">
+                      <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-2 sm:p-3 lg:p-4 border border-green-200 text-left">
                         <div className="flex items-center justify-between">
                           <div>
-                            <div className="text-sm font-semibold text-green-700">STARTER TIER</div>
-                            <div className="text-lg font-bold text-green-600">$5K - $15K</div>
+                            <div className="text-xs sm:text-sm font-semibold text-green-700">STARTER TIER</div>
+                            <div className="text-sm sm:text-base lg:text-lg font-bold text-green-600">$5K - $15K</div>
                           </div>
-                          <div className="text-2xl">🌟</div>
+                          <div className="text-lg sm:text-xl lg:text-2xl">🌟</div>
                         </div>
-                        <div className="text-xs text-green-600 mt-2">Month 1-2 • 87% of clients</div>
+                        <div className="text-xs text-green-600 mt-1 sm:mt-2">Month 1-2 • 87% of clients</div>
                       </div>
-                      
+
                       {/* Tier 2 */}
-                      <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 border border-blue-200 text-left">
+                      <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-2 sm:p-3 lg:p-4 border border-blue-200 text-left">
                         <div className="flex items-center justify-between">
                           <div>
                             <div className="text-sm font-semibold text-blue-700">GROWTH TIER</div>
@@ -684,83 +684,83 @@ function App() {
                   </div>
 
                   {/* Guarantee Box */}
-                  <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl p-6 border border-yellow-200 mb-6">
+                  <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg sm:rounded-xl p-3 sm:p-4 lg:p-6 border border-yellow-200 mb-3 sm:mb-4 lg:mb-6">
                     <div className="text-center">
-                      <div className="text-lg font-bold text-yellow-800 mb-2">30-Day Revenue Guarantee</div>
-                      <p className="text-sm text-yellow-700">
+                      <div className="text-sm sm:text-base lg:text-lg font-bold text-yellow-800 mb-1 sm:mb-2">30-Day Revenue Guarantee</div>
+                      <p className="text-xs sm:text-sm text-yellow-700">
                         We guarantee minimum $5K monthly revenue within 30 days or your money back
                       </p>
                     </div>
                   </div>
                   <div className="text-center">
                   {/* CTA */}
-                    <button className="px-6 lg:px-8 py-2.5 lg:py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-sm lg:text-base rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25">
+                    <button className="px-4 sm:px-6 lg:px-8 py-2 sm:py-2.5 lg:py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-xs sm:text-sm lg:text-base rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25 min-h-[44px]">
                       Join Our Success Stories
                       Claim Your Transformation
                     </button>
-                    <p className="text-xs lg:text-sm text-gray-500 mt-2">Start your transformation today</p>
-                    <p className="text-xs lg:text-sm text-gray-500 mt-2">Join 500+ successful creators</p>
+                    <p className="text-xs lg:text-sm text-gray-500 mt-1 sm:mt-2">Start your transformation today</p>
+                    <p className="text-xs lg:text-sm text-gray-500 mt-1 sm:mt-2">Join 500+ successful creators</p>
                   </div>
                 </div>
 
                 {/* Floating elements */}
-                <div className="absolute -top-4 -left-4 lg:-top-6 lg:-left-6 w-16 h-16 lg:w-24 lg:h-24 bg-gradient-to-r from-emerald-500/20 to-green-500/20 rounded-full blur-xl animate-pulse"></div>
-                <div className="absolute -top-4 -left-4 lg:-top-6 lg:-left-6 w-16 h-16 lg:w-24 lg:h-24 bg-gradient-to-r from-yellow-500/20 to-orange-500/20 rounded-full blur-xl animate-pulse"></div>
+                <div className="absolute -top-2 -left-2 sm:-top-3 sm:-left-3 lg:-top-6 lg:-left-6 w-8 h-8 sm:w-12 sm:h-12 lg:w-24 lg:h-24 bg-gradient-to-r from-emerald-500/20 to-green-500/20 rounded-full blur-xl animate-pulse"></div>
+                <div className="absolute -top-2 -left-2 sm:-top-3 sm:-left-3 lg:-top-6 lg:-left-6 w-8 h-8 sm:w-12 sm:h-12 lg:w-24 lg:h-24 bg-gradient-to-r from-yellow-500/20 to-orange-500/20 rounded-full blur-xl animate-pulse"></div>
               </div>
             </div>
           </div>
         </section>
         
         {/* Case Study Section */}
-        <section className="py-12 lg:py-20 relative">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="py-4 sm:py-6 lg:py-20 relative">
+          <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
             {/* Header */}
-            <div className="text-center mb-3 lg:mb-6">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-4 lg:mb-6">
+            <div className="text-center mb-2 sm:mb-3 lg:mb-6">
+              <h2 className="text-lg sm:text-xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-2 sm:mb-3 lg:mb-6">
                 $10K in 30 Days —
                 <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                   From Zero to Breakthrough!
                 </span>
               </h2>
-              <p className="text-base lg:text-lg text-gray-600 leading-relaxed max-w-4xl mx-auto">
+              <p className="text-xs sm:text-sm lg:text-lg text-gray-600 leading-relaxed max-w-4xl mx-auto">
                 From ZERO PRESENCE to over $10K! in just ONE MONTH. This creator had no social media, no followers, and no prior audience — we built everything brick by brick. The dashboard shows daily growth climbing to record highs by month's end, with earnings driven by subscriptions, tips, and especially fan messaging. Proof that starting from scratch can still deliver massive results.
               </p>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div className="grid lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-12 items-center">
               {/* Left Column - Screenshot */}
               <div className="relative">
                 <div className="flex justify-center">
-                  <img 
+                  <img
                     src="/assets/uploads/3966668235efb5df2659ed69ff4b3211ac3bca84d3eb56c2621e583b5b88bec9.png"
                     alt="Verified earnings dashboard showing $10,321.66 total earnings with breakdown of subscriptions, tips, and messages"
-                    className="max-w-72 object-contain bg-gray-900 rounded-xl lg:rounded-2xl shadow-2xl"
+                    className="max-w-48 sm:max-w-56 lg:max-w-72 object-contain bg-gray-900 rounded-lg sm:rounded-xl lg:rounded-2xl shadow-2xl"
                   />
                 </div>
                   {/* Verification Badge */}
-                  <div className="absolute -top-3 -right-3 bg-gradient-to-r from-emerald-500 to-green-600 text-white px-3 py-1.5 rounded-full text-xs font-semibold shadow-lg">
+                  <div className="absolute -top-2 -right-2 sm:-top-3 sm:-right-3 bg-gradient-to-r from-emerald-500 to-green-600 text-white px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-xs font-semibold shadow-lg">
                     ✓ Verified Data
                   </div>
                 
                 {/* Floating elements */}
-                <div className="absolute -top-4 -left-4 w-16 h-16 bg-gradient-to-r from-emerald-500/20 to-green-500/20 rounded-full blur-xl animate-pulse"></div>
-                <div className="absolute -bottom-6 -right-6 w-20 h-20 bg-gradient-to-r from-green-500/15 to-emerald-500/15 rounded-full blur-2xl animate-pulse delay-1000"></div>
+                <div className="absolute -top-2 -left-2 sm:-top-3 sm:-left-3 lg:-top-4 lg:-left-4 w-8 h-8 sm:w-12 sm:h-12 lg:w-16 lg:h-16 bg-gradient-to-r from-emerald-500/20 to-green-500/20 rounded-full blur-xl animate-pulse"></div>
+                <div className="absolute -bottom-3 -right-3 sm:-bottom-4 sm:-right-4 lg:-bottom-6 lg:-right-6 w-10 h-10 sm:w-14 sm:h-14 lg:w-20 lg:h-20 bg-gradient-to-r from-green-500/15 to-emerald-500/15 rounded-full blur-2xl animate-pulse delay-1000"></div>
               </div>
 
               {/* Right Column - Stats */}
-              <div className="space-y-3 lg:space-y-4">
+              <div className="space-y-2 sm:space-y-3 lg:space-y-4">
                 <div className="space-y-2 lg:space-y-3">
                   {/* Total Earnings */}
-                  <div className="bg-gradient-to-br from-gray-50 to-white backdrop-blur-lg rounded-lg lg:rounded-xl p-3 lg:p-4 border border-gray-200">
+                  <div className="bg-gradient-to-br from-gray-50 to-white backdrop-blur-lg rounded-lg lg:rounded-xl p-2 sm:p-3 lg:p-4 border border-gray-200">
                     <div className="flex items-center justify-between">
                       <div>
                         <h4 className="text-xs lg:text-sm text-gray-600 font-medium">Total Earnings</h4>
-                        <p className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-emerald-600 to-green-600 bg-clip-text text-transparent">
+                        <p className="text-base sm:text-lg lg:text-2xl font-bold bg-gradient-to-r from-emerald-600 to-green-600 bg-clip-text text-transparent">
                           $10,321.66
                         </p>
                       </div>
-                      <div className="w-10 h-10 bg-gradient-to-r from-emerald-100 to-green-100 rounded-lg flex items-center justify-center">
-                        <span className="text-xl">💰</span>
+                      <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-emerald-100 to-green-100 rounded-lg flex items-center justify-center">
+                        <span className="text-base sm:text-lg lg:text-xl">💰</span>
                       </div>
                     </div>
                   </div>
@@ -785,49 +785,49 @@ function App() {
                 </div>
 
                 {/* Transformation 2 */}
-                <div className="bg-gradient-to-br from-gray-50 to-white backdrop-blur-lg rounded-2xl p-8 border border-gray-200 shadow-xl">
-                  <div className="text-center mb-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">90-Day Scale-Up</h4>
-                    <p className="text-gray-600">From established to elite performer</p>
+                <div className="bg-gradient-to-br from-gray-50 to-white backdrop-blur-lg rounded-lg sm:rounded-xl lg:rounded-2xl p-3 sm:p-4 lg:p-8 border border-gray-200 shadow-xl">
+                  <div className="text-center mb-3 sm:mb-4 lg:mb-6">
+                    <h4 className="text-sm sm:text-base lg:text-xl font-bold text-gray-900 mb-1 sm:mb-2">90-Day Scale-Up</h4>
+                    <p className="text-xs sm:text-sm lg:text-base text-gray-600">From established to elite performer</p>
                   </div>
                   
-                  <div className="grid grid-cols-2 gap-6">
+                  <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:gap-6">
                     {/* Before */}
                     <div className="text-center">
-                      <div className="text-gray-500 text-sm font-semibold mb-2">BEFORE</div>
-                      <div className="bg-gray-100 rounded-lg p-4">
-                        <div className="text-2xl font-bold text-gray-600">$8K</div>
+                      <div className="text-gray-500 text-xs sm:text-sm font-semibold mb-1 sm:mb-2">BEFORE</div>
+                      <div className="bg-gray-100 rounded-lg p-2 sm:p-3 lg:p-4">
+                        <div className="text-base sm:text-lg lg:text-2xl font-bold text-gray-600">$8K</div>
                         <div className="text-xs text-gray-500">Monthly Revenue</div>
                       </div>
                     </div>
                     
                     {/* After */}
                     <div className="text-center">
-                      <div className="text-purple-600 text-sm font-semibold mb-2">AFTER</div>
-                      <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg p-4 border border-purple-200">
-                        <div className="text-2xl font-bold text-purple-600">$87K</div>
+                      <div className="text-purple-600 text-xs sm:text-sm font-semibold mb-1 sm:mb-2">AFTER</div>
+                      <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg p-2 sm:p-3 lg:p-4 border border-purple-200">
+                        <div className="text-base sm:text-lg lg:text-2xl font-bold text-purple-600">$87K</div>
                         <div className="text-xs text-purple-700">Monthly Revenue</div>
                       </div>
                     </div>
                   </div>
                   
                   {/* Progress Arrow */}
-                  <div className="flex justify-center my-4">
-                    <div className="w-full h-2 bg-gradient-to-r from-gray-400 via-blue-500 to-purple-500 rounded-full relative">
-                      <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-3 h-3 bg-purple-500 rounded-full"></div>
+                  <div className="flex justify-center my-2 sm:my-3 lg:my-4">
+                    <div className="w-full h-1 sm:h-1.5 lg:h-2 bg-gradient-to-r from-gray-400 via-blue-500 to-purple-500 rounded-full relative">
+                      <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-2 h-2 sm:w-2.5 sm:h-2.5 lg:w-3 lg:h-3 bg-purple-500 rounded-full"></div>
                     </div>
                   </div>
                   
                   <div className="text-center">
-                    <span className="text-sm text-gray-600">Growth Rate: </span>
-                    <span className="text-sm font-bold text-purple-600">987% increase</span>
+                    <span className="text-xs sm:text-sm text-gray-600">Growth Rate: </span>
+                    <span className="text-xs sm:text-sm font-bold text-purple-600">987% increase</span>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Footer Note */}
-            <div className="mt-10 lg:mt-12 text-center">
+            <div className="mt-4 sm:mt-6 lg:mt-12 text-center">
               <p className="text-xs lg:text-sm text-gray-500 italic">
                 Performance results may vary by creator. These figures are from one verified model's first month with Modellaire MGMT.
               </p>
